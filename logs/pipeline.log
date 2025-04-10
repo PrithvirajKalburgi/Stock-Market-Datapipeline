@@ -1,0 +1,607 @@
+2025-04-10 12:45:32,237 - luigi - INFO - logging configured by default settings
+2025-04-10 12:45:32,406 - luigi-interface - DEBUG - Checking if StockPipeline(date=2025-04-10, include_streamlit=True) is complete
+2025-04-10 12:45:32,409 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 12:45:32,410 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 12:45:32,411 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 12:45:32,412 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 12:45:32,412 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 12:45:32,413 - luigi-interface - DEBUG - Checking if StreamlitVisualization() is complete
+2025-04-10 12:45:32,414 - luigi-interface - INFO - Informed scheduler that task   StockPipeline_2025_04_10_True_ab949b5b96   has status   PENDING
+2025-04-10 12:45:32,415 - luigi-interface - INFO - Informed scheduler that task   StreamlitVisualization__99914b932b   has status   PENDING
+2025-04-10 12:45:32,415 - luigi-interface - DEBUG - Checking if StoreData(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 12:45:32,416 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 12:45:32,417 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 12:45:32,418 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 12:45:32,418 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 12:45:32,419 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 12:45:32,420 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 12:45:32,420 - luigi-interface - DEBUG - Checking if StoreData(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 12:45:32,421 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 12:45:32,422 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 12:45:32,422 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 12:45:32,423 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 12:45:32,424 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 12:45:32,425 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 12:45:32,426 - luigi-interface - DEBUG - Checking if StoreData(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 12:45:32,427 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 12:45:32,428 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 12:45:32,428 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 12:45:32,429 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 12:45:32,430 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 12:45:32,431 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 12:45:32,431 - luigi-interface - DEBUG - Checking if StoreData(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 12:45:32,432 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 12:45:32,433 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 12:45:32,434 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 12:45:32,435 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 12:45:32,437 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 12:45:32,438 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 12:45:32,440 - luigi-interface - DEBUG - Checking if StoreData(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 12:45:32,441 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 12:45:32,441 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 12:45:32,442 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 12:45:32,443 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 12:45:32,445 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 12:45:32,445 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 12:45:32,446 - luigi-interface - INFO - Done scheduling tasks
+2025-04-10 12:45:32,447 - luigi-interface - INFO - Running Worker with 1 processes
+2025-04-10 12:45:32,447 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:45:32,448 - luigi-interface - DEBUG - Pending tasks: 22
+2025-04-10 12:45:32,448 - luigi-interface - INFO - [pid 7080] Worker Worker(salt=6797666174, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=7080) running   CleanValidateData(symbol=AMZN, date=2025-04-10)
+2025-04-10 12:45:32,449 - luigi-interface - ERROR - [pid 7080] Worker Worker(salt=6797666174, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=7080) failed    CleanValidateData(symbol=AMZN, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\clean_validate.py", line 19, in run
+    with self.input().open('r') as f:
+         ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'open'
+2025-04-10 12:45:32,456 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 12:45:32,461 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_AMZN_d76d18d2ef   has status   FAILED
+2025-04-10 12:45:32,461 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:45:32,462 - luigi-interface - DEBUG - Pending tasks: 22
+2025-04-10 12:45:32,462 - luigi-interface - INFO - [pid 7080] Worker Worker(salt=6797666174, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=7080) running   CleanValidateData(symbol=TSLA, date=2025-04-10)
+2025-04-10 12:45:32,463 - luigi-interface - ERROR - [pid 7080] Worker Worker(salt=6797666174, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=7080) failed    CleanValidateData(symbol=TSLA, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\clean_validate.py", line 19, in run
+    with self.input().open('r') as f:
+         ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'open'
+2025-04-10 12:45:32,465 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 12:45:32,470 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_TSLA_efb44685c7   has status   FAILED
+2025-04-10 12:45:32,470 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:45:32,471 - luigi-interface - DEBUG - Pending tasks: 22
+2025-04-10 12:45:32,471 - luigi-interface - INFO - [pid 7080] Worker Worker(salt=6797666174, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=7080) running   CleanValidateData(symbol=GOOGL, date=2025-04-10)
+2025-04-10 12:45:32,472 - luigi-interface - ERROR - [pid 7080] Worker Worker(salt=6797666174, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=7080) failed    CleanValidateData(symbol=GOOGL, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\clean_validate.py", line 19, in run
+    with self.input().open('r') as f:
+         ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'open'
+2025-04-10 12:45:32,476 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 12:45:32,479 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_GOOGL_cd51ade321   has status   FAILED
+2025-04-10 12:45:32,479 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:45:32,479 - luigi-interface - DEBUG - Pending tasks: 22
+2025-04-10 12:45:32,480 - luigi-interface - INFO - [pid 7080] Worker Worker(salt=6797666174, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=7080) running   CleanValidateData(symbol=MSFT, date=2025-04-10)
+2025-04-10 12:45:32,480 - luigi-interface - ERROR - [pid 7080] Worker Worker(salt=6797666174, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=7080) failed    CleanValidateData(symbol=MSFT, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\clean_validate.py", line 19, in run
+    with self.input().open('r') as f:
+         ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'open'
+2025-04-10 12:45:32,483 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 12:45:32,487 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_MSFT_8966bab259   has status   FAILED
+2025-04-10 12:45:32,487 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:45:32,488 - luigi-interface - DEBUG - Pending tasks: 22
+2025-04-10 12:45:32,488 - luigi-interface - INFO - [pid 7080] Worker Worker(salt=6797666174, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=7080) running   CleanValidateData(symbol=AAPL, date=2025-04-10)
+2025-04-10 12:45:32,489 - luigi-interface - ERROR - [pid 7080] Worker Worker(salt=6797666174, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=7080) failed    CleanValidateData(symbol=AAPL, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\clean_validate.py", line 19, in run
+    with self.input().open('r') as f:
+         ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'open'
+2025-04-10 12:45:32,492 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 12:45:32,496 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_AAPL_5bc7d0b1e1   has status   FAILED
+2025-04-10 12:45:32,496 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:45:32,496 - luigi-interface - DEBUG - Done
+2025-04-10 12:45:32,497 - luigi-interface - DEBUG - There are no more tasks to run at this time
+2025-04-10 12:45:32,497 - luigi-interface - DEBUG - There are 22 pending tasks possibly being run by other workers
+2025-04-10 12:45:32,497 - luigi-interface - DEBUG - There are 22 pending tasks unique to this worker
+2025-04-10 12:45:32,497 - luigi-interface - DEBUG - There are 22 pending tasks last scheduled by this worker
+2025-04-10 12:45:32,498 - luigi-interface - INFO - Worker Worker(salt=6797666174, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=7080) was stopped. Shutting down Keep-Alive thread
+2025-04-10 12:45:32,506 - luigi-interface - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 22 tasks of which:
+* 5 failed:
+    - 5 CleanValidateData(symbol=AAPL, date=2025-04-10) ...
+* 17 were left pending, among these:
+    * 17 had failed dependencies:
+        - 5 FeatureEngineering(symbol=AAPL, date=2025-04-10) ...
+        - 1 StockPipeline(date=2025-04-10, include_streamlit=True)
+        - 5 StoreData(symbol=AAPL, date=2025-04-10) ...
+        - 1 StreamlitVisualization()
+        - 5 VisualizeData(symbol=AAPL, date=2025-04-10) ...
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2025-04-10 12:56:43,471 - luigi - INFO - logging configured by default settings
+2025-04-10 12:56:43,501 - luigi-interface - DEBUG - Checking if StockPipeline(date=2025-04-10, include_streamlit=True) is complete
+2025-04-10 12:56:43,505 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 12:56:43,506 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 12:56:43,507 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 12:56:43,507 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 12:56:43,508 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 12:56:43,508 - luigi-interface - DEBUG - Checking if StreamlitVisualization() is complete
+2025-04-10 12:56:43,509 - luigi-interface - INFO - Informed scheduler that task   StockPipeline_2025_04_10_True_ab949b5b96   has status   PENDING
+2025-04-10 12:56:43,510 - luigi-interface - INFO - Informed scheduler that task   StreamlitVisualization__99914b932b   has status   PENDING
+2025-04-10 12:56:43,511 - luigi-interface - DEBUG - Checking if StoreData(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 12:56:43,512 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 12:56:43,512 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 12:56:43,513 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 12:56:43,514 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 12:56:43,515 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 12:56:43,515 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 12:56:43,516 - luigi-interface - DEBUG - Checking if StoreData(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 12:56:43,517 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 12:56:43,517 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 12:56:43,518 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 12:56:43,519 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 12:56:43,520 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 12:56:43,521 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 12:56:43,521 - luigi-interface - DEBUG - Checking if StoreData(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 12:56:43,523 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 12:56:43,524 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 12:56:43,525 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 12:56:43,526 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 12:56:43,527 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 12:56:43,528 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 12:56:43,528 - luigi-interface - DEBUG - Checking if StoreData(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 12:56:43,530 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 12:56:43,531 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 12:56:43,531 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 12:56:43,532 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 12:56:43,533 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 12:56:43,534 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 12:56:43,534 - luigi-interface - DEBUG - Checking if StoreData(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 12:56:43,535 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 12:56:43,535 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 12:56:43,536 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 12:56:43,536 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 12:56:43,537 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 12:56:43,538 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 12:56:43,538 - luigi-interface - INFO - Done scheduling tasks
+2025-04-10 12:56:43,538 - luigi-interface - INFO - Running Worker with 1 processes
+2025-04-10 12:56:43,539 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:56:43,540 - luigi-interface - DEBUG - Pending tasks: 22
+2025-04-10 12:56:43,541 - luigi-interface - INFO - [pid 8388] Worker Worker(salt=2015115916, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=8388) running   CleanValidateData(symbol=AMZN, date=2025-04-10)
+2025-04-10 12:56:43,542 - luigi-interface - ERROR - [pid 8388] Worker Worker(salt=2015115916, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=8388) failed    CleanValidateData(symbol=AMZN, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\clean_validate.py", line 24, in run
+    input_target = input_target[0]
+                   ~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2025-04-10 12:56:43,545 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 12:56:43,549 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_AMZN_d76d18d2ef   has status   FAILED
+2025-04-10 12:56:43,549 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:56:43,550 - luigi-interface - DEBUG - Pending tasks: 22
+2025-04-10 12:56:43,550 - luigi-interface - INFO - [pid 8388] Worker Worker(salt=2015115916, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=8388) running   CleanValidateData(symbol=TSLA, date=2025-04-10)
+2025-04-10 12:56:43,551 - luigi-interface - ERROR - [pid 8388] Worker Worker(salt=2015115916, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=8388) failed    CleanValidateData(symbol=TSLA, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\clean_validate.py", line 24, in run
+    input_target = input_target[0]
+                   ~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2025-04-10 12:56:43,553 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 12:56:43,555 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_TSLA_efb44685c7   has status   FAILED
+2025-04-10 12:56:43,555 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:56:43,557 - luigi-interface - DEBUG - Pending tasks: 22
+2025-04-10 12:56:43,557 - luigi-interface - INFO - [pid 8388] Worker Worker(salt=2015115916, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=8388) running   CleanValidateData(symbol=GOOGL, date=2025-04-10)
+2025-04-10 12:56:43,558 - luigi-interface - ERROR - [pid 8388] Worker Worker(salt=2015115916, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=8388) failed    CleanValidateData(symbol=GOOGL, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\clean_validate.py", line 24, in run
+    input_target = input_target[0]
+                   ~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2025-04-10 12:56:43,560 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 12:56:43,563 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_GOOGL_cd51ade321   has status   FAILED
+2025-04-10 12:56:43,563 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:56:43,564 - luigi-interface - DEBUG - Pending tasks: 22
+2025-04-10 12:56:43,564 - luigi-interface - INFO - [pid 8388] Worker Worker(salt=2015115916, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=8388) running   CleanValidateData(symbol=MSFT, date=2025-04-10)
+2025-04-10 12:56:43,565 - luigi-interface - ERROR - [pid 8388] Worker Worker(salt=2015115916, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=8388) failed    CleanValidateData(symbol=MSFT, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\clean_validate.py", line 24, in run
+    input_target = input_target[0]
+                   ~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2025-04-10 12:56:43,567 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 12:56:43,570 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_MSFT_8966bab259   has status   FAILED
+2025-04-10 12:56:43,570 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:56:43,570 - luigi-interface - DEBUG - Pending tasks: 22
+2025-04-10 12:56:43,571 - luigi-interface - INFO - [pid 8388] Worker Worker(salt=2015115916, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=8388) running   CleanValidateData(symbol=AAPL, date=2025-04-10)
+2025-04-10 12:56:43,571 - luigi-interface - ERROR - [pid 8388] Worker Worker(salt=2015115916, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=8388) failed    CleanValidateData(symbol=AAPL, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\clean_validate.py", line 24, in run
+    input_target = input_target[0]
+                   ~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2025-04-10 12:56:43,574 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 12:56:43,577 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_AAPL_5bc7d0b1e1   has status   FAILED
+2025-04-10 12:56:43,577 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 12:56:43,578 - luigi-interface - DEBUG - Done
+2025-04-10 12:56:43,578 - luigi-interface - DEBUG - There are no more tasks to run at this time
+2025-04-10 12:56:43,578 - luigi-interface - DEBUG - There are 22 pending tasks possibly being run by other workers
+2025-04-10 12:56:43,578 - luigi-interface - DEBUG - There are 22 pending tasks unique to this worker
+2025-04-10 12:56:43,579 - luigi-interface - DEBUG - There are 22 pending tasks last scheduled by this worker
+2025-04-10 12:56:43,579 - luigi-interface - INFO - Worker Worker(salt=2015115916, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=8388) was stopped. Shutting down Keep-Alive thread
+2025-04-10 12:56:43,585 - luigi-interface - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 22 tasks of which:
+* 5 failed:
+    - 5 CleanValidateData(symbol=AAPL, date=2025-04-10) ...
+* 17 were left pending, among these:
+    * 17 had failed dependencies:
+        - 5 FeatureEngineering(symbol=AAPL, date=2025-04-10) ...
+        - 1 StockPipeline(date=2025-04-10, include_streamlit=True)
+        - 5 StoreData(symbol=AAPL, date=2025-04-10) ...
+        - 1 StreamlitVisualization()
+        - 5 VisualizeData(symbol=AAPL, date=2025-04-10) ...
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2025-04-10 13:07:46,733 - luigi - INFO - logging configured by default settings
+2025-04-10 13:07:46,765 - luigi-interface - DEBUG - Checking if StockPipeline(date=2025-04-10, include_streamlit=True) is complete
+2025-04-10 13:07:46,768 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 13:07:46,769 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 13:07:46,770 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 13:07:46,771 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 13:07:46,772 - luigi-interface - DEBUG - Checking if VisualizeData(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 13:07:46,772 - luigi-interface - DEBUG - Checking if StreamlitVisualization() is complete
+2025-04-10 13:07:46,774 - luigi-interface - INFO - Informed scheduler that task   StockPipeline_2025_04_10_True_ab949b5b96   has status   PENDING
+2025-04-10 13:07:46,775 - luigi-interface - INFO - Informed scheduler that task   StreamlitVisualization__99914b932b   has status   PENDING
+2025-04-10 13:07:46,776 - luigi-interface - DEBUG - Checking if StoreData(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 13:07:46,777 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 13:07:46,778 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 13:07:46,779 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 13:07:46,780 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 13:07:46,783 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 13:07:46,784 - luigi-interface - DEBUG - Checking if FetchStockData(symbol=AMZN, date=2025-04-10) is complete
+2025-04-10 13:07:46,787 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 13:07:46,787 - luigi-interface - INFO - Informed scheduler that task   FetchStockData_2025_04_10_AMZN_d76d18d2ef   has status   PENDING
+2025-04-10 13:07:46,788 - luigi-interface - DEBUG - Checking if StoreData(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 13:07:46,789 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 13:07:46,790 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 13:07:46,791 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 13:07:46,792 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 13:07:46,793 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 13:07:46,794 - luigi-interface - DEBUG - Checking if FetchStockData(symbol=TSLA, date=2025-04-10) is complete
+2025-04-10 13:07:46,795 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 13:07:46,796 - luigi-interface - INFO - Informed scheduler that task   FetchStockData_2025_04_10_TSLA_efb44685c7   has status   PENDING
+2025-04-10 13:07:46,798 - luigi-interface - DEBUG - Checking if StoreData(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 13:07:46,800 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 13:07:46,801 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 13:07:46,802 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 13:07:46,803 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 13:07:46,804 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 13:07:46,805 - luigi-interface - DEBUG - Checking if FetchStockData(symbol=GOOGL, date=2025-04-10) is complete
+2025-04-10 13:07:46,806 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 13:07:46,808 - luigi-interface - INFO - Informed scheduler that task   FetchStockData_2025_04_10_GOOGL_cd51ade321   has status   PENDING
+2025-04-10 13:07:46,809 - luigi-interface - DEBUG - Checking if StoreData(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 13:07:46,810 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 13:07:46,810 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 13:07:46,811 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 13:07:46,812 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 13:07:46,818 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 13:07:46,818 - luigi-interface - DEBUG - Checking if FetchStockData(symbol=MSFT, date=2025-04-10) is complete
+2025-04-10 13:07:46,820 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 13:07:46,821 - luigi-interface - INFO - Informed scheduler that task   FetchStockData_2025_04_10_MSFT_8966bab259   has status   PENDING
+2025-04-10 13:07:46,821 - luigi-interface - DEBUG - Checking if StoreData(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 13:07:46,822 - luigi-interface - INFO - Informed scheduler that task   VisualizeData_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 13:07:46,823 - luigi-interface - DEBUG - Checking if FeatureEngineering(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 13:07:46,824 - luigi-interface - INFO - Informed scheduler that task   StoreData_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 13:07:46,825 - luigi-interface - DEBUG - Checking if CleanValidateData(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 13:07:46,826 - luigi-interface - INFO - Informed scheduler that task   FeatureEngineering_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 13:07:46,827 - luigi-interface - DEBUG - Checking if FetchStockData(symbol=AAPL, date=2025-04-10) is complete
+2025-04-10 13:07:46,829 - luigi-interface - INFO - Informed scheduler that task   CleanValidateData_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 13:07:46,831 - luigi-interface - INFO - Informed scheduler that task   FetchStockData_2025_04_10_AAPL_5bc7d0b1e1   has status   PENDING
+2025-04-10 13:07:46,833 - luigi-interface - INFO - Done scheduling tasks
+2025-04-10 13:07:46,833 - luigi-interface - INFO - Running Worker with 1 processes
+2025-04-10 13:07:46,834 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 13:07:46,835 - luigi-interface - DEBUG - Pending tasks: 27
+2025-04-10 13:07:46,835 - luigi-interface - INFO - [pid 14508] Worker Worker(salt=8691503897, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=14508) running   FetchStockData(symbol=AMZN, date=2025-04-10)
+2025-04-10 13:07:51,387 - luigi-interface - ERROR - [pid 14508] Worker Worker(salt=8691503897, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=14508) failed    FetchStockData(symbol=AMZN, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\fetch_stock_data.py", line 27, in run
+    data.to_csv(f, index=False)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 157, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 140, in close
+    self.handle.flush()
+    ~~~~~~~~~~~~~~~~~^^
+TypeError: write() argument must be str, not bytes
+2025-04-10 13:07:51,553 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 13:07:51,558 - luigi-interface - INFO - Informed scheduler that task   FetchStockData_2025_04_10_AMZN_d76d18d2ef   has status   FAILED
+2025-04-10 13:07:51,558 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 13:07:51,559 - luigi-interface - DEBUG - Pending tasks: 27
+2025-04-10 13:07:51,559 - luigi-interface - INFO - [pid 14508] Worker Worker(salt=8691503897, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=14508) running   FetchStockData(symbol=TSLA, date=2025-04-10)
+2025-04-10 13:07:51,843 - luigi-interface - ERROR - [pid 14508] Worker Worker(salt=8691503897, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=14508) failed    FetchStockData(symbol=TSLA, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\fetch_stock_data.py", line 27, in run
+    data.to_csv(f, index=False)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 157, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 140, in close
+    self.handle.flush()
+    ~~~~~~~~~~~~~~~~~^^
+TypeError: write() argument must be str, not bytes
+2025-04-10 13:07:51,850 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 13:07:51,854 - luigi-interface - INFO - Informed scheduler that task   FetchStockData_2025_04_10_TSLA_efb44685c7   has status   FAILED
+2025-04-10 13:07:51,854 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 13:07:51,854 - luigi-interface - DEBUG - Pending tasks: 27
+2025-04-10 13:07:51,855 - luigi-interface - INFO - [pid 14508] Worker Worker(salt=8691503897, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=14508) running   FetchStockData(symbol=GOOGL, date=2025-04-10)
+2025-04-10 13:07:52,137 - luigi-interface - ERROR - [pid 14508] Worker Worker(salt=8691503897, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=14508) failed    FetchStockData(symbol=GOOGL, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\fetch_stock_data.py", line 27, in run
+    data.to_csv(f, index=False)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 157, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 140, in close
+    self.handle.flush()
+    ~~~~~~~~~~~~~~~~~^^
+TypeError: write() argument must be str, not bytes
+2025-04-10 13:07:52,142 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 13:07:52,145 - luigi-interface - INFO - Informed scheduler that task   FetchStockData_2025_04_10_GOOGL_cd51ade321   has status   FAILED
+2025-04-10 13:07:52,146 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 13:07:52,147 - luigi-interface - DEBUG - Pending tasks: 27
+2025-04-10 13:07:52,147 - luigi-interface - INFO - [pid 14508] Worker Worker(salt=8691503897, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=14508) running   FetchStockData(symbol=MSFT, date=2025-04-10)
+2025-04-10 13:07:52,497 - luigi-interface - ERROR - [pid 14508] Worker Worker(salt=8691503897, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=14508) failed    FetchStockData(symbol=MSFT, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\fetch_stock_data.py", line 27, in run
+    data.to_csv(f, index=False)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 157, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 140, in close
+    self.handle.flush()
+    ~~~~~~~~~~~~~~~~~^^
+TypeError: write() argument must be str, not bytes
+2025-04-10 13:07:52,504 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 13:07:52,507 - luigi-interface - INFO - Informed scheduler that task   FetchStockData_2025_04_10_MSFT_8966bab259   has status   FAILED
+2025-04-10 13:07:52,508 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 13:07:52,508 - luigi-interface - DEBUG - Pending tasks: 27
+2025-04-10 13:07:52,508 - luigi-interface - INFO - [pid 14508] Worker Worker(salt=8691503897, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=14508) running   FetchStockData(symbol=AAPL, date=2025-04-10)
+2025-04-10 13:07:52,773 - luigi-interface - ERROR - [pid 14508] Worker Worker(salt=8691503897, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=14508) failed    FetchStockData(symbol=AAPL, date=2025-04-10)
+Traceback (most recent call last):
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\luigi\worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "C:\Users\kalbu\Stock-Market-Datapipeline\luigi_pipeline\fetch_stock_data.py", line 27, in run
+    data.to_csv(f, index=False)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 157, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Users\kalbu\AppData\Roaming\Python\Python313\site-packages\pandas\io\common.py", line 140, in close
+    self.handle.flush()
+    ~~~~~~~~~~~~~~~~~^^
+TypeError: write() argument must be str, not bytes
+2025-04-10 13:07:52,781 - luigi-interface - DEBUG - 1 running tasks, waiting for next task to finish
+2025-04-10 13:07:52,784 - luigi-interface - INFO - Informed scheduler that task   FetchStockData_2025_04_10_AAPL_5bc7d0b1e1   has status   FAILED
+2025-04-10 13:07:52,785 - luigi-interface - DEBUG - Asking scheduler for work...
+2025-04-10 13:07:52,785 - luigi-interface - DEBUG - Done
+2025-04-10 13:07:52,785 - luigi-interface - DEBUG - There are no more tasks to run at this time
+2025-04-10 13:07:52,786 - luigi-interface - DEBUG - There are 27 pending tasks possibly being run by other workers
+2025-04-10 13:07:52,786 - luigi-interface - DEBUG - There are 27 pending tasks unique to this worker
+2025-04-10 13:07:52,786 - luigi-interface - DEBUG - There are 27 pending tasks last scheduled by this worker
+2025-04-10 13:07:52,786 - luigi-interface - INFO - Worker Worker(salt=8691503897, workers=1, host=ADMINIS-LESU8A2, username=kalbu, pid=14508) was stopped. Shutting down Keep-Alive thread
+2025-04-10 13:07:52,797 - luigi-interface - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 27 tasks of which:
+* 5 failed:
+    - 5 FetchStockData(symbol=AAPL, date=2025-04-10) ...
+* 22 were left pending, among these:
+    * 22 had failed dependencies:
+        - 5 CleanValidateData(symbol=AAPL, date=2025-04-10) ...
+        - 5 FeatureEngineering(symbol=AAPL, date=2025-04-10) ...
+        - 1 StockPipeline(date=2025-04-10, include_streamlit=True)
+        - 5 StoreData(symbol=AAPL, date=2025-04-10) ...
+        - 1 StreamlitVisualization()
+        ...
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
